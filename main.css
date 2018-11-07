@@ -1,0 +1,122 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+h1{
+  padding-top: 10%;
+  color: #9BA4AD;
+}
+#pic{
+  background:url(paper1.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 210px;
+  width: 100%;
+  length: 200px;
+ }
+.topnav {
+  background-color: none;
+  overflow: hidden;
+}
+.topnav a{
+  float: left;
+  color: #7B807C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font size: 17px;
+
+}
+.topnav a:hover {
+  background-color: #F4FAFA;
+  text-align: center;
+}
+.split {
+ height: 100%;
+ width: 50%;
+ position: fixed;
+ z-index: -1;
+ top: 0;
+ overflow-x: hidden;
+ padding-top: 30px;
+}
+@keyframes pop {
+  80% {
+    opacity: 0;
+    }
+    65%{
+      opacity: .6;
+    }
+    75%{
+      opacity: 1;
+     }
+    0%{
+      width: 0px;
+
+    }
+    100%{
+      width: 100px;
+    }
+}
+#img_butterfly{
+animation: pop 5s infinite;
+}
+@keyframes pop {
+  80% {
+    opacity: 0;
+    }
+    65%{
+      opacity: .6;
+    }
+    75%{
+      opacity: 1;
+     }
+    0%{
+      width: 0px;
+
+    }
+    100%{
+      width: 100px;
+    }
+  }
+#img_create{
+  animation: pop 5s infinite;
+}
+
+  /* }* Hide horizontal scrollbar */
+/* Control the left side */
+.left {
+ left: 0;
+ background-color: #E0E8F3;
+}
+
+/* Control the right side */
+.right {
+ right: 0;
+ background-color: #D5E0E4;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-30%, -30%);
+ text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+ width: 150px;
+ border-radius: 50%;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#7B807C;
+   text-align: center;
+   display: inline-block;
+}

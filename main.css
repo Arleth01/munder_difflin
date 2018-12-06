@@ -41,7 +41,7 @@ h1{
  overflow-x: hidden;
  padding-top: 30px;
 }
-@keyframes pop {
+/* @keyframes pop {
   80% {
     opacity: 0;
     }
@@ -58,11 +58,11 @@ h1{
     100%{
       width: 100px;
     }
-}
+} */
 #img_butterfly{
-animation: pop 5s infinite;
+animation: the 5s;
 }
-@keyframes pop {
+/* @keyframes flip {
   80% {
     opacity: 0;
     }
@@ -79,10 +79,17 @@ animation: pop 5s infinite;
     100%{
       width: 100px;
     }
-  }
+  } */
 #img_create{
-  animation: pop 5s infinite;
+  animation: the 5s;
 }
+@keyframes the {
+  100%{
+    /* position: absolute;
+    background-color: red; */
+    transform: rotate(360deg);
+  }
+ }
 
   /* }* Hide horizontal scrollbar */
 /* Control the left side */
